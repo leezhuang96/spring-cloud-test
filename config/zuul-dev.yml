@@ -9,5 +9,5 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 zuul:
   routes:
-    user-server: user
-    home-server: home
+    user-server: /user/**
+    home-server: /home/**
