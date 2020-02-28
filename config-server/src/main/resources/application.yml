@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/leezhuang96/spring-cloud-test.git
           username: leezhuang96@gmail.com
           password: lz199696
           search-paths: config

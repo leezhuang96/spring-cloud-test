@@ -12,6 +12,7 @@
         <module>eureka-server</module>
         <module>config-server</module>
         <module>user-server-provider</module>
+        <module>home-server-provider</module>
     </modules>
 
     <parent>
