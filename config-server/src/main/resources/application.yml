@@ -1,0 +1,18 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+          username: leezhuang96@gmail.com
+          password: lz199696
+          search-paths: config
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
