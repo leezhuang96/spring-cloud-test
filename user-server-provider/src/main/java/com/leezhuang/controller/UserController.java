@@ -14,6 +14,6 @@ public class UserController {
 
     @GetMapping("/index")
     public String index() {
-        return port;
+        return "user server port: " + port;
     }
 }

@@ -13,6 +13,7 @@
         <module>config-server</module>
         <module>user-server-provider</module>
         <module>home-server-provider</module>
+        <module>zuul-gateway</module>
     </modules>
 
     <parent>

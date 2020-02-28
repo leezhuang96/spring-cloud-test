@@ -14,6 +14,6 @@ public class HomeController {
 
     @GetMapping("/index")
     public String index() {
-        return port;
+        return "home server port: " + port;
     }
 }
